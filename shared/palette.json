@@ -1,0 +1,34 @@
+{
+  "name": "Journal-reference categorical colors with blue-white-coral numerical scales",
+  "cell_types": {
+    "hepatocyte": "#68A6C7",
+    "cholangiocyte": "#556FA4",
+    "malignant": "#E98573",
+    "qHSC": "#65B7A5",
+    "activated_HSC": "#E3B45A",
+    "portal": "#B496C6",
+    "MFB": "#BD607D"
+  },
+  "major_extra": {
+    "Endothelial": "#C79C72",
+    "B cell": "#8F9D62"
+  },
+  "continuous": {
+    "low": "#5E8DB6",
+    "mid": "#FFFFFF",
+    "high": "#D97767"
+  },
+  "neutral": {
+    "NA": "#E5E5E5",
+    "grid": "#E6E6E6",
+    "muted": "#666666",
+    "edge": "#A0A0A0",
+    "size_legend": "#BDBDBD"
+  },
+  "emt_states": {
+    "epithelial": "#68A6C7",
+    "mesenchymal": "#65B7A5",
+    "hybrid": "#E98573",
+    "low": "#BBBBBB"
+  }
+}

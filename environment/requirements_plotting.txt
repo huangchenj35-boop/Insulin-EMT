@@ -1,0 +1,5 @@
+PyMuPDF==1.26.5
+numpy==2.0.2
+pandas==2.3.3
+reportlab==5.0.0
+Pillow==11.3.0

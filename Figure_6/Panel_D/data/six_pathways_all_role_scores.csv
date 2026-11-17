@@ -1,0 +1,103 @@
+cohort_key,pathway,role_id,role_label,n_cells,mean_gsva,within_cohort_role_zscore,displayed_in_figure6,preserved_original_row,selection_status
+ChinaHCC,TGF-β,normal_cholangiocyte_root,Normal cholangiocyte,29,-0.350402212400379,-0.62365665066744802,False,True,post_score_exploratory
+ChinaHCC,TGF-β,normal_hepatocyte_root,Normal hepatocyte,149,-0.39238581329053601,-0.813813649292079,True,True,post_score_exploratory
+ChinaHCC,TGF-β,malignant_epithelial_EMT_root,Malignant epithelial,150,-0.39725857623945798,-0.83588393287257701,True,True,post_score_exploratory
+ChinaHCC,TGF-β,qHSC_root,qHSC,150,-0.26199394460582998,-0.22322766170581801,True,True,post_score_exploratory
+ChinaHCC,TGF-β,activated_HSC_intermediate,Activated HSC,62,-0.248118942416927,-0.160383391176117,True,True,post_score_exploratory
+ChinaHCC,TGF-β,portal_fibroblast_root,Portal fibroblast,127,-0.044760306539113497,0.76069214839224697,True,True,post_score_exploratory
+ChinaHCC,TGF-β,fibrotic_MFB_terminal,Fibrotic MFB,38,0.20595767577285801,1.89627313732179,True,True,post_score_exploratory
+ChinaHCC,PI3K-AKT,normal_cholangiocyte_root,Normal cholangiocyte,29,-0.21979688345439199,-1.9572337042267201,False,False,post_score_exploratory
+ChinaHCC,PI3K-AKT,normal_hepatocyte_root,Normal hepatocyte,149,-0.112294273128588,0.44089840201000502,True,False,post_score_exploratory
+ChinaHCC,PI3K-AKT,malignant_epithelial_EMT_root,Malignant epithelial,150,-0.103855756841365,0.62914198768723395,True,False,post_score_exploratory
+ChinaHCC,PI3K-AKT,qHSC_root,qHSC,150,-0.10267153243857199,0.65555926772089301,True,False,post_score_exploratory
+ChinaHCC,PI3K-AKT,activated_HSC_intermediate,Activated HSC,62,-0.098074012427557603,0.75811919918735504,True,False,post_score_exploratory
+ChinaHCC,PI3K-AKT,portal_fibroblast_root,Portal fibroblast,127,-0.12293071565581599,0.20362421635644601,True,False,post_score_exploratory
+ChinaHCC,PI3K-AKT,fibrotic_MFB_terminal,Fibrotic MFB,38,-0.16478779162138699,-0.73010936873521104,True,False,post_score_exploratory
+ChinaHCC,Insulin,normal_cholangiocyte_root,Normal cholangiocyte,29,-0.28236594728558001,-1.6151297928725099,False,True,post_score_exploratory
+ChinaHCC,Insulin,normal_hepatocyte_root,Normal hepatocyte,149,-0.20414127600496501,0.49878718963012703,True,True,post_score_exploratory
+ChinaHCC,Insulin,malignant_epithelial_EMT_root,Malignant epithelial,150,-0.162426223123212,1.62608062876005,True,True,post_score_exploratory
+ChinaHCC,Insulin,qHSC_root,qHSC,150,-0.20632943081376801,0.43965523630965597,True,True,post_score_exploratory
+ChinaHCC,Insulin,activated_HSC_intermediate,Activated HSC,62,-0.23635183953379801,-0.37166015319500501,True,True,post_score_exploratory
+ChinaHCC,Insulin,portal_fibroblast_root,Portal fibroblast,127,-0.23356638287123899,-0.296386917186299,True,True,post_score_exploratory
+ChinaHCC,Insulin,fibrotic_MFB_terminal,Fibrotic MFB,38,-0.233009806696964,-0.28134619144601702,True,True,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,normal_cholangiocyte_root,Normal cholangiocyte,29,-0.40955730739045398,-0.99451185744127701,False,False,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,normal_hepatocyte_root,Normal hepatocyte,149,-0.34815406731499499,0.048608980875804501,True,False,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,malignant_epithelial_EMT_root,Malignant epithelial,150,-0.23755571344294499,1.92745849216749,True,False,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,qHSC_root,qHSC,150,-0.32290039546690402,0.47761942586848999,True,False,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,activated_HSC_intermediate,Activated HSC,62,-0.40196454630596001,-0.86552571114239896,True,False,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,portal_fibroblast_root,Portal fibroblast,127,-0.38406343210877603,-0.56142082636385404,True,False,post_score_exploratory
+ChinaHCC,HGF-RAS/ERK,fibrotic_MFB_terminal,Fibrotic MFB,38,-0.35291256058480502,-0.032228503964255598,True,False,post_score_exploratory
+ChinaHCC,EGF,normal_cholangiocyte_root,Normal cholangiocyte,29,-0.36881911847052801,-0.64265042307309295,False,True,post_score_exploratory
+ChinaHCC,EGF,normal_hepatocyte_root,Normal hepatocyte,149,-0.26699672781475098,0.77542467440030605,True,True,post_score_exploratory
+ChinaHCC,EGF,malignant_epithelial_EMT_root,Malignant epithelial,150,-0.19943388079642599,1.7163689034057601,True,True,post_score_exploratory
+ChinaHCC,EGF,qHSC_root,qHSC,150,-0.29354157713637402,0.40573594929040402,True,True,post_score_exploratory
+ChinaHCC,EGF,activated_HSC_intermediate,Activated HSC,62,-0.35394089732628797,-0.435442217063917,True,True,post_score_exploratory
+ChinaHCC,EGF,portal_fibroblast_root,Portal fibroblast,127,-0.37914472944815902,-0.78645466592452495,True,True,post_score_exploratory
+ChinaHCC,EGF,fibrotic_MFB_terminal,Fibrotic MFB,38,-0.39684620736607101,-1.03298222103494,True,True,post_score_exploratory
+ChinaHCC,IGF,normal_cholangiocyte_root,Normal cholangiocyte,29,-0.070091067087841297,0.67526913495032204,False,True,post_score_exploratory
+ChinaHCC,IGF,normal_hepatocyte_root,Normal hepatocyte,149,-0.071360974933974697,0.65426656419918805,True,True,post_score_exploratory
+ChinaHCC,IGF,malignant_epithelial_EMT_root,Malignant epithelial,150,-0.042914181075824398,1.1247383409252101,True,True,post_score_exploratory
+ChinaHCC,IGF,qHSC_root,qHSC,150,-0.15793512357223899,-0.77755361671433798,True,True,post_score_exploratory
+ChinaHCC,IGF,activated_HSC_intermediate,Activated HSC,62,-0.21073620511454899,-1.65081261279445,True,True,post_score_exploratory
+ChinaHCC,IGF,portal_fibroblast_root,Portal fibroblast,127,-0.142558772261446,-0.52324941087570498,True,True,post_score_exploratory
+ChinaHCC,IGF,fibrotic_MFB_terminal,Fibrotic MFB,38,-0.080849348774430299,0.49734160030977498,True,True,post_score_exploratory
+USAHCC,TGF-β,normal_hepatocyte_root,Normal hepatocyte,148,-0.48360164678740197,-1.18213911213444,True,True,post_score_exploratory
+USAHCC,TGF-β,malignant_epithelial_EMT_root,Malignant epithelial,83,-0.32725427108886601,-0.41196509174828499,True,True,post_score_exploratory
+USAHCC,TGF-β,qHSC_root,qHSC,81,-0.34409080402770598,-0.494902590410705,True,True,post_score_exploratory
+USAHCC,TGF-β,portal_fibroblast_like_root,Portal fibroblast-like,83,-0.0205347194023404,1.09894885354834,True,True,post_score_exploratory
+USAHCC,TGF-β,fibrotic_MFB_terminal,Fibrotic MFB,59,-0.042639864478088499,0.99005794074508202,True,True,post_score_exploratory
+USAHCC,PI3K-AKT,normal_hepatocyte_root,Normal hepatocyte,148,-0.16823474348297501,-0.13677554423190899,True,False,post_score_exploratory
+USAHCC,PI3K-AKT,malignant_epithelial_EMT_root,Malignant epithelial,83,-0.084695311763399797,1.64815544741131,True,False,post_score_exploratory
+USAHCC,PI3K-AKT,qHSC_root,qHSC,81,-0.15878115815564001,0.065212871125611194,True,False,post_score_exploratory
+USAHCC,PI3K-AKT,portal_fibroblast_like_root,Portal fibroblast-like,83,-0.20314308959934799,-0.88263875598179997,True,False,post_score_exploratory
+USAHCC,PI3K-AKT,fibrotic_MFB_terminal,Fibrotic MFB,59,-0.19431215113060399,-0.69395401832321502,True,False,post_score_exploratory
+USAHCC,Insulin,normal_hepatocyte_root,Normal hepatocyte,148,-0.21048128791071799,0.045114572436558698,True,True,post_score_exploratory
+USAHCC,Insulin,malignant_epithelial_EMT_root,Malignant epithelial,83,-0.0963414934223768,1.70819764777507,True,True,post_score_exploratory
+USAHCC,Insulin,qHSC_root,qHSC,81,-0.26686840166688502,-0.77647841338791701,True,True,post_score_exploratory
+USAHCC,Insulin,portal_fibroblast_like_root,Portal fibroblast-like,83,-0.247202430869119,-0.48993380078825899,True,True,post_score_exploratory
+USAHCC,Insulin,fibrotic_MFB_terminal,Fibrotic MFB,59,-0.246994217151632,-0.48690000603545702,True,True,post_score_exploratory
+USAHCC,HGF-RAS/ERK,normal_hepatocyte_root,Normal hepatocyte,148,-0.33139670500700902,0.19261561144903799,True,False,post_score_exploratory
+USAHCC,HGF-RAS/ERK,malignant_epithelial_EMT_root,Malignant epithelial,83,-0.146639471963003,1.6690579783933099,True,False,post_score_exploratory
+USAHCC,HGF-RAS/ERK,qHSC_root,qHSC,81,-0.44717229245540402,-0.73257675883265305,True,False,post_score_exploratory
+USAHCC,HGF-RAS/ERK,portal_fibroblast_like_root,Portal fibroblast-like,83,-0.42126210064925201,-0.52552178031852903,True,False,post_score_exploratory
+USAHCC,HGF-RAS/ERK,fibrotic_MFB_terminal,Fibrotic MFB,59,-0.43102943501119501,-0.60357505069116602,True,False,post_score_exploratory
+USAHCC,EGF,normal_hepatocyte_root,Normal hepatocyte,148,-0.24702593398283801,0.27820379961407798,True,True,post_score_exploratory
+USAHCC,EGF,malignant_epithelial_EMT_root,Malignant epithelial,83,-0.062133864552009303,1.6340078266054401,True,True,post_score_exploratory
+USAHCC,EGF,qHSC_root,qHSC,81,-0.386937867991198,-0.747763209877645,True,True,post_score_exploratory
+USAHCC,EGF,portal_fibroblast_like_root,Portal fibroblast-like,83,-0.37636892309808101,-0.67026168106005002,True,True,post_score_exploratory
+USAHCC,EGF,fibrotic_MFB_terminal,Fibrotic MFB,59,-0.35235744322948997,-0.49418673528182,True,True,post_score_exploratory
+USAHCC,IGF,normal_hepatocyte_root,Normal hepatocyte,148,-0.15098312905818101,0.15893764902732499,True,True,post_score_exploratory
+USAHCC,IGF,malignant_epithelial_EMT_root,Malignant epithelial,83,-0.048879360512330799,1.53871703360915,True,True,post_score_exploratory
+USAHCC,IGF,qHSC_root,qHSC,81,-0.25270091719947702,-1.21562578894801,True,True,post_score_exploratory
+USAHCC,IGF,portal_fibroblast_like_root,Portal fibroblast-like,83,-0.18658382398388201,-0.32215237962534898,True,True,post_score_exploratory
+USAHCC,IGF,fibrotic_MFB_terminal,Fibrotic MFB,59,-0.17457539886672899,-0.159876514063123,True,True,post_score_exploratory
+CCAcombined,TGF-β,normal_cholangiocyte_root,Normal cholangiocyte,150,-0.31742019161697799,-0.40401846203627301,True,True,post_score_exploratory
+CCAcombined,TGF-β,malignant_epithelial_EMT_root,Malignant epithelial,62,-0.438738493292049,-1.48230337260097,True,True,post_score_exploratory
+CCAcombined,TGF-β,qHSC_root,qHSC,16,-0.24124441509576999,0.27303676573440699,True,True,post_score_exploratory
+CCAcombined,TGF-β,portal_fibroblast_like_root,Portal fibroblast-like,79,-0.22205834679481701,0.44356378149654702,True,True,post_score_exploratory
+CCAcombined,TGF-β,fibrotic_MFB_terminal,Fibrotic MFB,62,-0.14035805172211799,1.1697212874062899,True,True,post_score_exploratory
+CCAcombined,PI3K-AKT,normal_cholangiocyte_root,Normal cholangiocyte,150,-0.068085545757407398,1.3186564315012499,True,False,post_score_exploratory
+CCAcombined,PI3K-AKT,malignant_epithelial_EMT_root,Malignant epithelial,62,-0.12991305154364999,0.66759622960643406,True,False,post_score_exploratory
+CCAcombined,PI3K-AKT,qHSC_root,qHSC,16,-0.20268351455383199,-0.098696243895383895,True,False,post_score_exploratory
+CCAcombined,PI3K-AKT,portal_fibroblast_like_root,Portal fibroblast-like,79,-0.29340056161251798,-1.05397105600775,True,False,post_score_exploratory
+CCAcombined,PI3K-AKT,fibrotic_MFB_terminal,Fibrotic MFB,62,-0.27247177840476899,-0.83358536120454896,True,False,post_score_exploratory
+CCAcombined,Insulin,normal_cholangiocyte_root,Normal cholangiocyte,150,-0.116474318107161,1.3169291393325,True,True,post_score_exploratory
+CCAcombined,Insulin,malignant_epithelial_EMT_root,Malignant epithelial,62,-0.15438468206686401,0.82389285487606301,True,True,post_score_exploratory
+CCAcombined,Insulin,qHSC_root,qHSC,16,-0.26761452818329301,-0.64869713867188505,True,True,post_score_exploratory
+CCAcombined,Insulin,portal_fibroblast_like_root,Portal fibroblast-like,79,-0.28760302300887097,-0.90865384157125995,True,True,post_score_exploratory
+CCAcombined,Insulin,fibrotic_MFB_terminal,Fibrotic MFB,62,-0.262599185083283,-0.58347101396541901,True,True,post_score_exploratory
+CCAcombined,HGF-RAS/ERK,normal_cholangiocyte_root,Normal cholangiocyte,150,-0.219169861896091,0.90948098207653605,True,False,post_score_exploratory
+CCAcombined,HGF-RAS/ERK,malignant_epithelial_EMT_root,Malignant epithelial,62,-0.17574649773168199,1.2472398978132899,True,False,post_score_exploratory
+CCAcombined,HGF-RAS/ERK,qHSC_root,qHSC,16,-0.41023084856643599,-0.57664412451442604,True,False,post_score_exploratory
+CCAcombined,HGF-RAS/ERK,portal_fibroblast_like_root,Portal fibroblast-like,79,-0.45500896423891701,-0.92494067153019999,True,False,post_score_exploratory
+CCAcombined,HGF-RAS/ERK,fibrotic_MFB_terminal,Fibrotic MFB,62,-0.420322025365023,-0.65513608384520705,True,False,post_score_exploratory
+CCAcombined,EGF,normal_cholangiocyte_root,Normal cholangiocyte,150,-0.11108968793838001,1.3129408271816301,True,True,post_score_exploratory
+CCAcombined,EGF,malignant_epithelial_EMT_root,Malignant epithelial,62,-0.19780485448238599,0.81372798666392399,True,True,post_score_exploratory
+CCAcombined,EGF,qHSC_root,qHSC,16,-0.50838981348477896,-0.97428679535205598,True,True,post_score_exploratory
+CCAcombined,EGF,portal_fibroblast_like_root,Portal fibroblast-like,79,-0.44272664064186001,-0.59626873532003499,True,True,post_score_exploratory
+CCAcombined,EGF,fibrotic_MFB_terminal,Fibrotic MFB,62,-0.435751486082676,-0.55611328317346098,True,True,post_score_exploratory
+CCAcombined,IGF,normal_cholangiocyte_root,Normal cholangiocyte,150,-0.0720959003830203,1.73474676462452,True,True,post_score_exploratory
+CCAcombined,IGF,malignant_epithelial_EMT_root,Malignant epithelial,62,-0.16233600662826,-0.26660392421096701,True,True,post_score_exploratory
+CCAcombined,IGF,qHSC_root,qHSC,16,-0.161600282282331,-0.25028698390820397,True,True,post_score_exploratory
+CCAcombined,IGF,portal_fibroblast_like_root,Portal fibroblast-like,79,-0.18859961911445799,-0.84907995540839398,True,True,post_score_exploratory
+CCAcombined,IGF,fibrotic_MFB_terminal,Fibrotic MFB,62,-0.166942900412998,-0.36877590109695901,True,True,post_score_exploratory

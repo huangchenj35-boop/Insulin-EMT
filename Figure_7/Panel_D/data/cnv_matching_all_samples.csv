@@ -1,0 +1,5 @@
+"patient","dataset","malig_n","MFB_n","immune_n","malig_LOO_corr","MFB_corr","CAF_corr","immune_corr","MFB_burden","malig_burden","n_key_events","MFB_arm_concordance","call"
+"HCC06T","China-HCC",238,271,1914,0.838,0.189,0.201,0,0.0877,0.0945,4,1,"not_retained"
+"S007","USA-HCC",128,11,1111,0.83,0.356,0.312,0.001,0.1279,0.1105,8,1,"not_retained"
+"S008","USA-HCC",96,11,103,0.675,-0.081,0.112,0.008,0.1664,0.089,0,,"not_evaluable"
+"S042","USA-HCC",226,76,29,0.909,0.206,0.109,-0.016,0.103,0.1423,15,0.87,"not_retained"

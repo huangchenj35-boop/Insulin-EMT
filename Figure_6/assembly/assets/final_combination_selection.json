@@ -1,0 +1,64 @@
+{
+  "selected_at_utc": "2026-10-27T04:44:54.064327+00:00",
+  "status": "post_score_exploratory_selection",
+  "new_scores_have_been_viewed": true,
+  "selection_includes_observed_direction": true,
+  "independent_validation": false,
+  "selection_basis": "Outcome-informed exploratory combination on the original V16 basis: preserve TGF-beta, Insulin, EGF and IGF unchanged; replace PI3K-AKT with prior complete Reactome R-HSA-1257604 and HGF with complete official Medicus HGF-MET-RAS-ERK. The two replacements were selected after reviewing candidate direction.",
+  "selected": [
+    {
+      "label": "TGF-β",
+      "standard_name": "V16_ORIGINAL_TGFB",
+      "V16_label": "TGF-β",
+      "selection_reason": "Keep V16 original row exactly as requested by the user."
+    },
+    {
+      "label": "PI3K-AKT",
+      "standard_name": "R-HSA-1257604",
+      "V16_label": "PI3K-AKT",
+      "selection_reason": "Use complete Reactome R-HSA-1257604 members (official title: PIP3 activates AKT signaling; PI3K/AKT synonym), already scored in the frozen V17 pipeline. Selected after viewing result direction."
+    },
+    {
+      "label": "Insulin",
+      "standard_name": "V16_KEGG_hsa04910",
+      "V16_label": "Insulin",
+      "selection_reason": "Keep V16 original complete insulin signaling row exactly; third row."
+    },
+    {
+      "label": "HGF-RAS/ERK",
+      "standard_name": "KEGG_MEDICUS_REFERENCE_HGF_MET_RAS_ERK_SIGNALING_PATHWAY",
+      "V16_label": "HGF",
+      "selection_reason": "Replace only the problematic HGF row with complete official HGF-MET-RAS-ERK reference branch; narrower scope explicitly labelled. This branch is selected after viewing direction concordance."
+    },
+    {
+      "label": "EGF",
+      "standard_name": "V16_ORIGINAL_EGF",
+      "V16_label": "EGF",
+      "selection_reason": "Keep V16 original row exactly as requested by the user."
+    },
+    {
+      "label": "IGF",
+      "standard_name": "V16_REACTOME_R-HSA-2404192",
+      "V16_label": "IGF",
+      "selection_reason": "Keep V16 original IGF/IGF1R row exactly as requested by the user."
+    }
+  ],
+  "comparison": "Each displayed normal epithelial and malignant group separately versus equally weighted stromal role means in each cohort; normal CCA epithelium is cholangiocyte, not hepatocyte.",
+  "not_equivalent_to": "Greater than every stromal subtype; independent validation of higher biochemical pathway activity; a single database or perfectly identical branch boundaries.",
+  "gene_membership": "Four original rows and their original definitions are preserved. Two replacement rows use intact official sets, no union/subtraction or hand-edited members. This does NOT make all six rows newly official or same-source.",
+  "preserved_initial_protocol": "../../audit/selection_before_scores.json",
+  "preserved_initial_selection_sha256": "175eff84d3f9b524ff62c34f1acfefd26138f48b409d7466cc5d4b3245ec2b9e",
+  "prior_Reactome_results": "V17/reactome_six/tables",
+  "biological_scope": "Original RNA gene-set expression comparison. HGF replacement is specifically its RAS-ERK branch. PI3K-AKT row is complete R-HSA-1257604 membership. Original TGF-beta/EGF curated signatures remain exactly as before.",
+  "user_correction": "User explicitly requested combining on the original figure basis and pointed out lowered HGF-MET. Preserve four original rows; replace PI3K-AKT and HGF only.",
+  "preserved_V16_rows": [
+    "TGF-β",
+    "Insulin",
+    "EGF",
+    "IGF"
+  ],
+  "replacement_rows": [
+    "PI3K-AKT",
+    "HGF-RAS/ERK"
+  ]
+}

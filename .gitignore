@@ -1,0 +1,18 @@
+# Build outputs and local environments
+outputs/
+runs/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+.Rhistory
+.RData
+# Raw sources are intentionally not part of the figure package
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.rds
+# Frozen csv, csv.gz, final PDF/PNG and vector components are intentionally tracked

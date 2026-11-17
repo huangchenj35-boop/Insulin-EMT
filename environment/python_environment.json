@@ -1,0 +1,15 @@
+{
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "packages": {
+    "PyMuPDF": "1.26.5",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "reportlab": "5.0.0",
+    "Pillow": "11.3.0",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.4"
+  },
+  "scope": "Archive-time environment; not a lock of every historical analysis environment"
+}

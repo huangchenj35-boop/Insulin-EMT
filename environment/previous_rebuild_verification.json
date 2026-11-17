@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "Figure_6_combined.pdf",
+    "pixel_identical_144dpi": true,
+    "dimensions_equal": true,
+    "original_sha256": "38f9a31bfb476490d896ab135ec967edaa6bf307ca3397c08d70ebceaac779d8",
+    "rebuilt_sha256": "5fedd3702441235774511c239a38f678ef2369095c057698563d94c8775e3c7b",
+    "comparison": "PDF metadata/timestamps may differ; rendering is compared exactly at 144 dpi."
+  },
+  {
+    "figure": "Figure_7.pdf",
+    "pixel_identical_144dpi": true,
+    "dimensions_equal": true,
+    "original_sha256": "da6261f4c6b30db038a1591298f592cfe927ba675c21c08f603b2d8583b046f5",
+    "rebuilt_sha256": "27ddfda9fee61e78664525270468025a538c371955eaaa066f20749fe6064f74",
+    "comparison": "PDF metadata/timestamps may differ; rendering is compared exactly at 144 dpi."
+  },
+  {
+    "figure": "Figure_S1.pdf",
+    "pixel_identical_144dpi": true,
+    "dimensions_equal": true,
+    "original_sha256": "7a12d63950ef6f4873ec5d6c6dc0b6f7d685c2cf749bca2083c1fb58d2c0b7da",
+    "rebuilt_sha256": "dbe86e1b6bc41fbb3ac24b4c19d0af54940436b2972abcdc212a9e43c1a4c584",
+    "comparison": "PDF metadata/timestamps may differ; rendering is compared exactly at 144 dpi."
+  }
+]

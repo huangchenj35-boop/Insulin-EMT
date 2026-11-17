@@ -1,0 +1,134 @@
+[
+  {
+    "standard_name": "PID_TGFBR_PATHWAY",
+    "topic": "TGF-beta receptor signaling",
+    "source": "PID",
+    "expected_members": 54,
+    "systematic_name": "M286"
+  },
+  {
+    "standard_name": "PID_PI3KCI_AKT_PATHWAY",
+    "topic": "generic PI3K-AKT downstream signaling",
+    "source": "PID",
+    "expected_members": 35,
+    "systematic_name": "M249"
+  },
+  {
+    "standard_name": "PID_INSULIN_PATHWAY",
+    "topic": "insulin receptor signaling",
+    "source": "PID",
+    "expected_members": 44,
+    "systematic_name": "M16"
+  },
+  {
+    "standard_name": "PID_MET_PATHWAY",
+    "topic": "HGF-MET",
+    "source": "PID",
+    "expected_members": 79,
+    "systematic_name": "M48"
+  },
+  {
+    "standard_name": "PID_ERBB1_RECEPTOR_PROXIMAL_PATHWAY",
+    "topic": "EGF/EGFR",
+    "source": "PID",
+    "expected_members": 35,
+    "systematic_name": "M127"
+  },
+  {
+    "standard_name": "PID_ERBB1_DOWNSTREAM_PATHWAY",
+    "topic": "EGF/EGFR",
+    "source": "PID",
+    "expected_members": 105,
+    "systematic_name": "M164"
+  },
+  {
+    "standard_name": "PID_IGF1_PATHWAY",
+    "topic": "IGF1/IGF1R",
+    "source": "PID",
+    "expected_members": 29,
+    "systematic_name": "M125"
+  },
+  {
+    "standard_name": "WP_TGFBETA_RECEPTOR_SIGNALING",
+    "topic": "TGF-beta receptor signaling",
+    "source": "WikiPathways",
+    "expected_members": 55,
+    "systematic_name": "M39351"
+  },
+  {
+    "standard_name": "WP_PI3KAKT_SIGNALING",
+    "topic": "generic PI3K-AKT downstream signaling",
+    "source": "WikiPathways",
+    "expected_members": 339,
+    "systematic_name": "M39736"
+  },
+  {
+    "standard_name": "WP_INSULIN_SIGNALING",
+    "topic": "insulin receptor signaling",
+    "source": "WikiPathways",
+    "expected_members": 160,
+    "systematic_name": "M39482"
+  },
+  {
+    "standard_name": "WP_HEPATOCYTE_GROWTH_FACTOR_RECEPTOR_SIGNALING",
+    "topic": "HGF-MET",
+    "source": "WikiPathways",
+    "expected_members": 35,
+    "systematic_name": "M39383"
+  },
+  {
+    "standard_name": "WP_EGFEGFR_SIGNALING",
+    "topic": "EGF/EGFR",
+    "source": "WikiPathways",
+    "expected_members": 162,
+    "systematic_name": "M39334"
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_TGF_BETA_SIGNALING_PATHWAY",
+    "topic": "TGF-beta receptor signaling",
+    "source": "KEGG Medicus",
+    "expected_members": 8
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_INS_AKT_SIGNALING_PATHWAY",
+    "topic": "insulin receptor signaling",
+    "source": "KEGG Medicus",
+    "expected_members": 11
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_HGF_MET_PI3K_SIGNALING_PATHWAY",
+    "topic": "HGF-MET",
+    "source": "KEGG Medicus",
+    "expected_members": 10
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_HGF_MET_RAS_ERK_SIGNALING_PATHWAY",
+    "topic": "HGF-MET",
+    "source": "KEGG Medicus",
+    "expected_members": 15
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_EGF_EGFR_PI3K_SIGNALING_PATHWAY",
+    "topic": "EGF/EGFR",
+    "source": "KEGG Medicus",
+    "expected_members": 9
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_EGF_EGFR_RAS_ERK_SIGNALING_PATHWAY",
+    "topic": "EGF/EGFR",
+    "source": "KEGG Medicus",
+    "expected_members": 16
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_IGF_IGF1R_PI3K_SIGNALING_PATHWAY",
+    "topic": "IGF1/IGF1R",
+    "source": "KEGG Medicus",
+    "expected_members": 13
+  },
+  {
+    "standard_name": "KEGG_MEDICUS_REFERENCE_IGF_IGF1R_RAS_ERK_SIGNALING_PATHWAY",
+    "topic": "IGF1/IGF1R",
+    "source": "KEGG Medicus",
+    "expected_members": 16
+  }
+]

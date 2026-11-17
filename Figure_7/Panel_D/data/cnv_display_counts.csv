@@ -1,0 +1,9 @@
+"sample","group","full_n","displayed_n"
+"HCC06T","immune_ref",1914,220
+"HCC06T","malignant_epi",238,220
+"HCC06T","MFB",271,220
+"HCC06T","other_CAF",266,220
+"S042","immune_ref",29,29
+"S042","malignant_epi",226,29
+"S042","MFB",76,29
+"S042","other_CAF",63,29

@@ -1,0 +1,158 @@
+[
+  {
+    "repository_path": "Figure_6/assembly/build_combined_figures.py",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/code/build_combined_figures.py"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/Figure_6_Insulin_third.pdf",
+    "historical_weng_path": "V16_Insulin与PI3K分开_20261026/Figure_6_Insulin_third.pdf"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_combination_selection.json",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/audit/final_combination_selection.json"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/calculation_notes.json",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/audit/calculation_notes.json"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/candidate_specifications.json",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/inputs/candidate_specifications.json"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/all_candidate_role_zscores/USAHCC_all_candidate_role_zscores.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/tables/USAHCC_all_candidate_role_zscores.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/all_candidate_role_zscores/ChinaHCC_all_candidate_role_zscores.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/tables/ChinaHCC_all_candidate_role_zscores.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/all_candidate_role_zscores/CCAcombined_all_candidate_role_zscores.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/tables/CCAcombined_all_candidate_role_zscores.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_tables/fig6_USAHCC_signaling_GSVA_activity_6pathways_zscore.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/tables/fig6_USAHCC_signaling_GSVA_activity_6pathways_zscore.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_tables/fig6_CCAcombined_signaling_GSVA_activity_6pathways_zscore_displayed.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/tables/fig6_CCAcombined_signaling_GSVA_activity_6pathways_zscore_displayed.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_tables/fig6_ChinaHCC_signaling_GSVA_activity_6pathways_zscore.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/tables/fig6_ChinaHCC_signaling_GSVA_activity_6pathways_zscore.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_tables/fig6_USAHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/tables/fig6_USAHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_tables/fig6_CCAcombined_signaling_GSVA_activity_6pathways_zscore.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/tables/fig6_CCAcombined_signaling_GSVA_activity_6pathways_zscore.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/final_tables/fig6_ChinaHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv",
+    "historical_weng_path": "V20_多库通路组合复核_20261027/final_combination/tables/fig6_ChinaHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/V16_reference_tables/fig6_CCAcombined_signaling_GSVA_activity_6pathways_zscore_displayed.csv",
+    "historical_weng_path": "V16_Insulin与PI3K分开_20261026/tables/fig6_CCAcombined_signaling_GSVA_activity_6pathways_zscore_displayed.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/V16_reference_tables/fig6_USAHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv",
+    "historical_weng_path": "V16_Insulin与PI3K分开_20261026/tables/fig6_USAHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv"
+  },
+  {
+    "repository_path": "Figure_6/assembly/assets/V16_reference_tables/fig6_ChinaHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv",
+    "historical_weng_path": "V16_Insulin与PI3K分开_20261026/tables/fig6_ChinaHCC_signaling_GSVA_activity_6pathways_zscore_displayed.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_A/data/S3_ChinaHCC_PAGA_connectivity_matrix_k30_uncapped.csv",
+    "historical_weng_path": "本次整合_20261010/inputs/S3_ChinaHCC_PAGA_connectivity_matrix_k30_uncapped.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_A/data/S3_USAHCC_PAGA_connectivity_matrix_k30_uncapped.csv",
+    "historical_weng_path": "本次整合_20261010/inputs/S3_USAHCC_PAGA_connectivity_matrix_k30_uncapped.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_A/data/S3_CCAcombined_PAGA_connectivity_matrix_k30_uncapped.csv",
+    "historical_weng_path": "本次整合_20261010/inputs/S3_CCAcombined_PAGA_connectivity_matrix_k30_uncapped.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_A/data/MFB_connectivity_frozen_values.csv",
+    "historical_weng_path": "Figure2_细胞来源追踪/拼图_20261009/inputs/MFB_connectivity_frozen_values.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_B/data/resampling_summary_verified.csv",
+    "historical_weng_path": "Figure2_细胞来源追踪/拼图_20261009/inputs/resampling_summary_verified.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_B/data/balanced_resampling_uncapped_values.csv",
+    "historical_weng_path": "Figure2_细胞来源追踪/拼图_20261009/inputs/balanced_resampling_uncapped_values.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_C/data/structural_ddrtree_coordinates.csv",
+    "historical_weng_path": "Figure2_细胞来源追踪/拼图_20261009/inputs/structural_ddrtree_coordinates.csv"
+  },
+  {
+    "repository_path": "Figure_7/Panel_C/data/structural_ddrtree_edges.csv",
+    "historical_weng_path": "Figure2_细胞来源追踪/拼图_20261009/inputs/structural_ddrtree_edges.csv"
+  },
+  {
+    "repository_path": "Figure_7/assembly/build_figure7.py",
+    "historical_weng_path": "V6_最终图_20261024/code/build_figure7.py"
+  },
+  {
+    "repository_path": "Figure_7/assembly/assets/Figure_2_frozen_CNV_panel.pdf",
+    "historical_weng_path": "JBC_singlecell_20261014_v2/Figure_2.pdf"
+  },
+  {
+    "repository_path": "Figure_7/assembly/assets/Figure_7_previous_audit.pdf",
+    "historical_weng_path": "JBC_singlecell_20261023_v4/Figure_7.pdf"
+  },
+  {
+    "repository_path": "Figure_7/assembly/assets/plotted_values_audit.csv",
+    "historical_weng_path": "V3_重组_20261023/audit/plotted_values.csv"
+  },
+  {
+    "repository_path": "Figure_S1/Panel_A/data/paired_statistics.csv",
+    "historical_weng_path": "S1A_HCC配对热图_FigureYa311_20261010/inputs/paired_statistics.csv"
+  },
+  {
+    "repository_path": "Figure_S1/Panel_A/data/patient_percentages.csv",
+    "historical_weng_path": "S1A_HCC配对热图_FigureYa311_20261010/inputs/patient_percentages.csv"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/build_final_figures.py",
+    "historical_weng_path": "V14_最终图与回复_20261026/code/build_final_figures.py"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_6.pdf",
+    "historical_weng_path": "JBC_singlecell_20261024_final/Figure_6.pdf"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_6.png",
+    "historical_weng_path": "JBC_singlecell_20261024_final/Figure_6.png"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_7.pdf",
+    "historical_weng_path": "JBC_singlecell_20261024_final/Figure_7.pdf"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_7.png",
+    "historical_weng_path": "JBC_singlecell_20261024_final/Figure_7.png"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_S1.pdf",
+    "historical_weng_path": "JBC_singlecell_20261024_final/Figure_S1.pdf"
+  },
+  {
+    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_S1.png",
+    "historical_weng_path": "JBC_singlecell_20261024_final/Figure_S1.png"
+  },
+  {
+    "repository_path": "shared/palette.json",
+    "historical_weng_path": "配色参考主刊_20261010/palette.json"
+  }
+]

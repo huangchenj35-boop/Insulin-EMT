@@ -1,0 +1,369 @@
+{
+  "status": "completed",
+  "analysis_status": "POST-SCORE EXPLORATORY / outcome-informed selection / not independent validation",
+  "selection_file": "/Users/sodajay/Desktop/Deutsch_Project/03_EMT/figures/EMT_Figure_Final/Weng_Figure/V20_多库通路组合复核_20261027/audit/final_combination_selection.json",
+  "selection_SHA256": "122f56d030635dda1d219ce819cc12e92ee9509c8fbe61d332646909e0a0b8b9",
+  "initial_twenty_selection_SHA256": "175eff84d3f9b524ff62c34f1acfefd26138f48b409d7466cc5d4b3245ec2b9e",
+  "row_order": [
+    "TGF-β",
+    "PI3K-AKT",
+    "Insulin",
+    "HGF-RAS/ERK",
+    "EGF",
+    "IGF"
+  ],
+  "preserved_original_rows": [
+    "TGF-β",
+    "Insulin",
+    "EGF",
+    "IGF"
+  ],
+  "replacement_rows": [
+    "PI3K-AKT",
+    "HGF-RAS/ERK"
+  ],
+  "definitions": [
+    {
+      "label": "TGF-β",
+      "standard_name": "V16_ORIGINAL_TGFB",
+      "V16_label": "TGF-β",
+      "selection_reason": "Keep V16 original row exactly as requested by the user.",
+      "complete_member_count": 11,
+      "treatment": "preserve_original_V16",
+      "source_type": "original_custom_signature",
+      "per_cell_availability": "not_archived_in_this_integration",
+      "selection_status": "POST-SCORE EXPLORATORY; outcome-informed; not independent validation"
+    },
+    {
+      "label": "PI3K-AKT",
+      "standard_name": "R-HSA-1257604",
+      "V16_label": "PI3K-AKT",
+      "selection_reason": "Use complete Reactome R-HSA-1257604 members (official title: PIP3 activates AKT signaling; PI3K/AKT synonym), already scored in the frozen V17 pipeline. Selected after viewing result direction.",
+      "complete_member_count": 284,
+      "treatment": "replace_from_cached_scores",
+      "source_type": "complete_archived_Reactome",
+      "per_cell_availability": "cached_and_verified",
+      "selection_status": "POST-SCORE EXPLORATORY; outcome-informed; not independent validation"
+    },
+    {
+      "label": "Insulin",
+      "standard_name": "V16_KEGG_hsa04910",
+      "V16_label": "Insulin",
+      "selection_reason": "Keep V16 original complete insulin signaling row exactly; third row.",
+      "complete_member_count": 140,
+      "treatment": "preserve_original_V16",
+      "source_type": "complete_official_KEGG",
+      "per_cell_availability": "cached_and_verified",
+      "selection_status": "POST-SCORE EXPLORATORY; outcome-informed; not independent validation"
+    },
+    {
+      "label": "HGF-RAS/ERK",
+      "standard_name": "KEGG_MEDICUS_REFERENCE_HGF_MET_RAS_ERK_SIGNALING_PATHWAY",
+      "V16_label": "HGF",
+      "selection_reason": "Replace only the problematic HGF row with complete official HGF-MET-RAS-ERK reference branch; narrower scope explicitly labelled. This branch is selected after viewing direction concordance.",
+      "complete_member_count": 15,
+      "treatment": "replace_from_cached_scores",
+      "source_type": "complete_official_KEGG_MEDICUS",
+      "per_cell_availability": "cached_and_verified",
+      "selection_status": "POST-SCORE EXPLORATORY; outcome-informed; not independent validation"
+    },
+    {
+      "label": "EGF",
+      "standard_name": "V16_ORIGINAL_EGF",
+      "V16_label": "EGF",
+      "selection_reason": "Keep V16 original row exactly as requested by the user.",
+      "complete_member_count": 12,
+      "treatment": "preserve_original_V16",
+      "source_type": "original_custom_signature",
+      "per_cell_availability": "not_archived_in_this_integration",
+      "selection_status": "POST-SCORE EXPLORATORY; outcome-informed; not independent validation"
+    },
+    {
+      "label": "IGF",
+      "standard_name": "V16_REACTOME_R-HSA-2404192",
+      "V16_label": "IGF",
+      "selection_reason": "Keep V16 original IGF/IGF1R row exactly as requested by the user.",
+      "complete_member_count": 54,
+      "treatment": "preserve_original_V16",
+      "source_type": "complete_archived_Reactome",
+      "per_cell_availability": "cached_and_verified",
+      "selection_status": "POST-SCORE EXPLORATORY; outcome-informed; not independent validation"
+    }
+  ],
+  "GSVA_rerun": false,
+  "source_pipeline": "Same frozen RDS and cells; lnCP1e4 full expression background; GSVA2.6.6 Gaussian, minSize3, maxSizeInf, seed1, SerialParam",
+  "assembly": "Four original V16 raw-mean and Z rows copied byte-for-byte in both full and displayed CSVs; two cached replacement rows independently reconstructed from source per-cell scores, then source summary values retained",
+  "missing_per_cell_policy": "TGF-beta and EGF original role summaries are preserved exactly; their unavailable per-cell scores are neither invented nor regenerated",
+  "source_membership_policy": "Original custom TGF-beta/EGF and original complete Insulin/IGF definitions preserved; complete Reactome284 and Medicus HGF15 used without union, subtraction, or gene editing",
+  "cohorts": [
+    {
+      "cohort_key": "ChinaHCC",
+      "cells": 705,
+      "frozen_RDS": "/Users/sodajay/Desktop/Deutsch_Project/03_EMT/archive/EMT_reproduce_final_20260910/emt_invivo_bodyfig_20260901/S2_ChinaHCC_joint_with_normal_roles_frozen.rds",
+      "frozen_MD5": "06910d7e500ac6da7526787396966e96",
+      "cached_barcode_and_role_match": true,
+      "per_cell_to_mean_maximum_error": 4.996003610813204e-16,
+      "row_Z_maximum_error": 9.43689570931383e-15,
+      "frozen_KEGG_control_pass": true,
+      "available_per_cell_rows": [
+        "PI3K-AKT",
+        "HGF-RAS/ERK",
+        "Insulin",
+        "IGF"
+      ],
+      "unavailable_per_cell_rows": [
+        "TGF-β",
+        "EGF"
+      ]
+    },
+    {
+      "cohort_key": "USAHCC",
+      "cells": 454,
+      "frozen_RDS": "/Users/sodajay/Desktop/Deutsch_Project/03_EMT/archive/EMT_reproduce_final_20260910/emt_invivo_bodyfig_20260901/S2_USAHCC_joint_with_normal_roles_frozen.rds",
+      "frozen_MD5": "d621adf1a8b5bc081a0ad938cdbb9329",
+      "cached_barcode_and_role_match": true,
+      "per_cell_to_mean_maximum_error": 5.551115123125783e-16,
+      "row_Z_maximum_error": 1.1671219546371958e-14,
+      "frozen_KEGG_control_pass": true,
+      "available_per_cell_rows": [
+        "PI3K-AKT",
+        "HGF-RAS/ERK",
+        "Insulin",
+        "IGF"
+      ],
+      "unavailable_per_cell_rows": [
+        "TGF-β",
+        "EGF"
+      ]
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "cells": 369,
+      "frozen_RDS": "/Users/sodajay/Desktop/Deutsch_Project/03_EMT/archive/EMT_reproduce_final_20260910/emt_invivo_bodyfig_20260901/S2_CCAcombined_joint_with_normal_roles_frozen.rds",
+      "frozen_MD5": "e19b2ca07f12f2985b37cdc256b48d50",
+      "cached_barcode_and_role_match": true,
+      "per_cell_to_mean_maximum_error": 4.718447854656915e-16,
+      "row_Z_maximum_error": 8.382183835919932e-15,
+      "frozen_KEGG_control_pass": true,
+      "available_per_cell_rows": [
+        "PI3K-AKT",
+        "HGF-RAS/ERK",
+        "Insulin",
+        "IGF"
+      ],
+      "unavailable_per_cell_rows": [
+        "TGF-β",
+        "EGF"
+      ]
+    }
+  ],
+  "contrast_direction_summary": {
+    "all_six_displayed_vs_equal_stroma": {
+      "positive": 30,
+      "total": 36
+    },
+    "non_TGF_displayed_vs_equal_stroma": {
+      "positive": 30,
+      "total": 30
+    },
+    "all_six_displayed_greater_than_every_stromal_role": {
+      "positive": 25,
+      "total": 36
+    },
+    "non_TGF_displayed_greater_than_every_stromal_role": {
+      "positive": 25,
+      "total": 30
+    },
+    "all_six_displayed_pairwise_stromal_comparisons": {
+      "positive": 94,
+      "total": 120
+    },
+    "non_TGF_displayed_pairwise_stromal_comparisons": {
+      "positive": 93,
+      "total": 100
+    },
+    "positive_difference_threshold": 1e-12
+  },
+  "coverage_summary": [
+    {
+      "cohort_key": "ChinaHCC",
+      "pathway": "TGF-β",
+      "complete_member_count": 11,
+      "present_in_counts": 11,
+      "detected_in_any_cell": 11,
+      "variable": 11,
+      "supplied_to_GSVA": 11
+    },
+    {
+      "cohort_key": "ChinaHCC",
+      "pathway": "PI3K-AKT",
+      "complete_member_count": 284,
+      "present_in_counts": 260,
+      "detected_in_any_cell": 250,
+      "variable": 250,
+      "supplied_to_GSVA": 250
+    },
+    {
+      "cohort_key": "ChinaHCC",
+      "pathway": "Insulin",
+      "complete_member_count": 140,
+      "present_in_counts": 133,
+      "detected_in_any_cell": 127,
+      "variable": 127,
+      "supplied_to_GSVA": 127
+    },
+    {
+      "cohort_key": "ChinaHCC",
+      "pathway": "HGF-RAS/ERK",
+      "complete_member_count": 15,
+      "present_in_counts": 15,
+      "detected_in_any_cell": 15,
+      "variable": 15,
+      "supplied_to_GSVA": 15
+    },
+    {
+      "cohort_key": "ChinaHCC",
+      "pathway": "EGF",
+      "complete_member_count": 12,
+      "present_in_counts": 12,
+      "detected_in_any_cell": 11,
+      "variable": 11,
+      "supplied_to_GSVA": 11
+    },
+    {
+      "cohort_key": "ChinaHCC",
+      "pathway": "IGF",
+      "complete_member_count": 54,
+      "present_in_counts": 50,
+      "detected_in_any_cell": 45,
+      "variable": 45,
+      "supplied_to_GSVA": 45
+    },
+    {
+      "cohort_key": "USAHCC",
+      "pathway": "TGF-β",
+      "complete_member_count": 11,
+      "present_in_counts": 11,
+      "detected_in_any_cell": 11,
+      "variable": 11,
+      "supplied_to_GSVA": 11
+    },
+    {
+      "cohort_key": "USAHCC",
+      "pathway": "PI3K-AKT",
+      "complete_member_count": 284,
+      "present_in_counts": 260,
+      "detected_in_any_cell": 241,
+      "variable": 241,
+      "supplied_to_GSVA": 241
+    },
+    {
+      "cohort_key": "USAHCC",
+      "pathway": "Insulin",
+      "complete_member_count": 140,
+      "present_in_counts": 133,
+      "detected_in_any_cell": 124,
+      "variable": 124,
+      "supplied_to_GSVA": 124
+    },
+    {
+      "cohort_key": "USAHCC",
+      "pathway": "HGF-RAS/ERK",
+      "complete_member_count": 15,
+      "present_in_counts": 15,
+      "detected_in_any_cell": 15,
+      "variable": 15,
+      "supplied_to_GSVA": 15
+    },
+    {
+      "cohort_key": "USAHCC",
+      "pathway": "EGF",
+      "complete_member_count": 12,
+      "present_in_counts": 12,
+      "detected_in_any_cell": 12,
+      "variable": 12,
+      "supplied_to_GSVA": 12
+    },
+    {
+      "cohort_key": "USAHCC",
+      "pathway": "IGF",
+      "complete_member_count": 54,
+      "present_in_counts": 50,
+      "detected_in_any_cell": 38,
+      "variable": 38,
+      "supplied_to_GSVA": 38
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "pathway": "TGF-β",
+      "complete_member_count": 11,
+      "present_in_counts": 11,
+      "detected_in_any_cell": 11,
+      "variable": 11,
+      "supplied_to_GSVA": 11
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "pathway": "PI3K-AKT",
+      "complete_member_count": 284,
+      "present_in_counts": 260,
+      "detected_in_any_cell": 240,
+      "variable": 240,
+      "supplied_to_GSVA": 240
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "pathway": "Insulin",
+      "complete_member_count": 140,
+      "present_in_counts": 133,
+      "detected_in_any_cell": 121,
+      "variable": 121,
+      "supplied_to_GSVA": 121
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "pathway": "HGF-RAS/ERK",
+      "complete_member_count": 15,
+      "present_in_counts": 15,
+      "detected_in_any_cell": 15,
+      "variable": 15,
+      "supplied_to_GSVA": 15
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "pathway": "EGF",
+      "complete_member_count": 12,
+      "present_in_counts": 12,
+      "detected_in_any_cell": 11,
+      "variable": 11,
+      "supplied_to_GSVA": 11
+    },
+    {
+      "cohort_key": "CCAcombined",
+      "pathway": "IGF",
+      "complete_member_count": 54,
+      "present_in_counts": 50,
+      "detected_in_any_cell": 39,
+      "variable": 39,
+      "supplied_to_GSVA": 39
+    }
+  ],
+  "limitations": [
+    "The two replacements were chosen after seeing results; this is exploratory selection, not validation.",
+    "Above equal-weight stromal-role mean does not imply above every stromal role.",
+    "RNA gene-set scores do not establish biochemical phosphorylation or independent ligand-specific activity.",
+    "The six rows are not all newly official or same-source; four original definitions remain."
+  ],
+  "checks": {
+    "four_original_rows_exact_in_48_checks": true,
+    "replacement_source_scores_reconstructed": true,
+    "same_frozen_RDS_barcodes_roles_and_pipeline": true,
+    "KEGG_source_controls_pass": true,
+    "all_initial_twenty_and_previous_inputs_unchanged": true,
+    "selection_manifest_unchanged": true,
+    "complete_memberships_preserved": true,
+    "no_GSVA_rerun": true,
+    "no_P_values": true,
+    "no_figures_written": true
+  }
+}

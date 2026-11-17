@@ -1,0 +1,22 @@
+{
+  "E_cut": 0.2013776236661785,
+  "M_cut": 0.0039257136053211,
+  "reference_cells": 29648,
+  "patients": [
+    "HCC03",
+    "HCC04",
+    "HCC05",
+    "HCC06",
+    "HCC07",
+    "HCC08",
+    "HCC09",
+    "HCC10"
+  ],
+  "normal_cells": 1575,
+  "malignant_cells": 11153,
+  "analysis": "Saved Figure 2A scoring; no rescoring, decontX or depth downsampling",
+  "EM_high": "E > E_cut and M > M_cut",
+  "M_high": "M > M_cut; Mesenchymal high plus E/M high",
+  "unit": "patient",
+  "paired_test": "two-sided exact Wilcoxon signed-rank; Holm adjustment across two metrics"
+}
