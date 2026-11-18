@@ -1,0 +1,23 @@
+{
+  "title": "Insulin depletion results in TGF-beta-induced epithelial-to-mesenchymal transition in liver epithelial cells: single-cell analysis code and figure-level data",
+  "description": "Analysis code and derived figure-level data for Figure 6, Figure 7 and Figure S4 of the accompanying manuscript. The release preserves historical analysis scripts, frozen numerical inputs, final multi-panel assembly code and approved figures. It supports reconstruction of the final figure compositions from the supplied derived inputs; it is not a complete raw-count-to-figure reproduction package.",
+  "creators": [
+    {
+      "name": "Huang, Chenjun",
+      "orcid": "0000-0003-3836-6262"
+    }
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "upload_type": "software",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "single-cell RNA sequencing",
+    "epithelial-mesenchymal transition",
+    "hepatocellular carcinoma",
+    "cholangiocarcinoma",
+    "insulin depletion",
+    "TGF-beta"
+  ]
+}

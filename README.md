@@ -87,6 +87,10 @@ The preserved original script versions and derived inputs allow readers to inspe
 - Figure 7: V6, 24 October 2026 — Figure_7.pdf.
 - Figure S4: V14, 26 October 2026 — Figure_S4.pdf.
 
-This repository intentionally does not include unrelated figures, wet-lab data, raw FASTQ, historical redundant versions, private documents, bundled compiled libraries, or commercial font files. No reuse license is implied unless one is added by the authors.
+This repository intentionally does not include unrelated figures, wet-lab data, raw FASTQ, historical redundant versions, private documents, bundled compiled libraries, or commercial font files.
 
 The source workstation filed the corresponding supplement as Figure S1. The repository uses Figure S4, following the final manuscript. The archived source filenames within the original plotting scripts remain unchanged.
+
+## License and third-party notices
+
+The original code and figure-level data created by the authors are available under the [MIT License](LICENSE). Third-party components retain their original licenses. In particular, FigureYa-derived components identified in the source notices remain under **CC BY-NC-SA 4.0** and are not relicensed under MIT; see [NOTICE](NOTICE) and the individual source files for attribution and scope.

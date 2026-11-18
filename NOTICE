@@ -1,0 +1,22 @@
+Third-party notices
+
+The MIT License in LICENSE applies to the original code and figure-level data
+created by the authors. Third-party components retain their original licenses.
+
+FigureYa adaptations
+
+Source files that identify FigureYa templates or adaptations include their
+own attribution and licensing statements. These include, but are not limited
+to, the FigureYa195PanPaire and FigureYa311PAM50Heatmap adaptations under
+Figure_S4/Panel_A/code/.
+
+The FigureYa source notices identify the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA
+4.0): https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Those FigureYa-derived components remain subject to CC BY-NC-SA 4.0 and are
+not relicensed under MIT. The source-file notices and appropriate attribution
+must be retained.
+
+FigureYa citation: Lu et al. (2025), FigureYa, iMetaMed 1:e70005.
+DOI: https://doi.org/10.1002/imm3.70005
