@@ -98,7 +98,7 @@ out=fitz.open(AUD/'S1_labels.pdf')
 clip=fitz.Rect(0,269,W,542)
 dest=fitz.Rect(0,209,W,482)
 out[0].show_pdf_page(dest,source,0,clip=clip,keep_proportion=True,overlay=False)
-out.set_metadata({'title':'Figure S1 | Compact layout | 2026-10-26',
+out.set_metadata({'title':'Figure S4 | Compact layout | 2026-10-26',
                   'subject':'Existing rectangular heatmaps; unchanged scientific data and B panel'})
 # Serialize before writing and replace atomically, avoiding an in-place PDF write.
 pending=OUT/'Figure_S1.pending.pdf'

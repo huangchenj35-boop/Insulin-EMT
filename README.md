@@ -1,6 +1,6 @@
 # Insulin depletion results in TGF-β-induced epithelial-to-mesenchymal transition in liver epithelial cells
 
-This repository contains code and the figure-level data for **Figure 6, Figure 7 and Figure S1**, the three bioinformatics figures contributed by C.H. to the manuscript. Other authors' experimental figures, clinical data, manuscripts and historical working folders are not part of this repository.
+This repository contains code and the figure-level data for **Figure 6, Figure 7 and Figure S4**, the three bioinformatics figures contributed by C.H. to the manuscript. Other authors' experimental figures, clinical data, manuscripts and historical working folders are not part of this repository.
 
 ## Repository contents
 
@@ -14,8 +14,8 @@ This repository contains code and the figure-level data for **Figure 6, Figure 7
 | Figure 7 | B | PAGA balanced-resampling results | Figure_7/Panel_B |
 | Figure 7 | C | Unrooted stromal DDRTree embedding | Figure_7/Panel_C |
 | Figure 7 | D | Chromosome-arm RNA-derived CNV | Figure_7/Panel_D |
-| Figure S1 | A | Paired HCC epithelial-state percentages | Figure_S1/Panel_A |
-| Figure S1 | B | Cook et al. two-axis E/M scores and proportions | Figure_S1/Panel_B |
+| Figure S4 | A | Paired HCC epithelial-state percentages | Figure_S4/Panel_A |
+| Figure S4 | B | Cook et al. two-axis E/M scores and proportions | Figure_S4/Panel_B |
 
 Within each Figure directory:
 
@@ -59,13 +59,13 @@ The scripts require a locally installed **Arial.ttf** and **Arial Bold.ttf**. Fo
 
 The approved final assembly script is Figure_7/assembly/build_figure7.py.
 
-### Figure S1
+### Figure S4
 
 **A:** Original patient-level analysis, paired statistics, heatmap sources and the data displayed in the final paired panel are stored in Panel_A.
 
 **B:** Original two-axis EMT-score analysis and the derived per-cell data are stored in Panel_B. Its approved image is retained as vector artwork, not silently regenerated with new values.
 
-The final assembly script is Figure_S1/assembly/build_final_figures.py. The only alteration to this script for the public code package was the removal of a hash-only reference to an unrelated private manuscript DOCX. This document was not used to calculate or draw Figure S1; no analysis formula or plotted values were changed.
+The final assembly script is Figure_S4/assembly/build_final_figures.py. The only alteration to this script for the public code package was the removal of a hash-only reference to an unrelated private manuscript DOCX. This document was not used to calculate or draw Figure S4; no analysis formula or plotted values were changed.
 
 ## Data sources and reproducibility scope
 
@@ -85,10 +85,8 @@ The preserved original script versions and derived inputs allow readers to inspe
 
 - Figure 6: V20, 27 October 2026 — Figure_6_combined.pdf.
 - Figure 7: V6, 24 October 2026 — Figure_7.pdf.
-- Figure S1: V14, 26 October 2026 — Figure_S1.pdf.
+- Figure S4: V14, 26 October 2026 — Figure_S4.pdf.
 
 This repository intentionally does not include unrelated figures, wet-lab data, raw FASTQ, historical redundant versions, private documents, bundled compiled libraries, or commercial font files. No reuse license is implied unless one is added by the authors.
 
-## Manuscript supplement numbering check
-
-**To verify before making the repository public:** The approved local archive calls the E/M paired and malignant-cell supplementary panels "Figure S1". In the manuscript supplied on 17 November 2026, these E/M results are instead cited as "Figure S4A/B", while "Figure S1" is described as medium-insulin measurements. The archived final file names are preserved here without changing any graphics. The authors should reconcile this numbering in the manuscript and supplementary figure package prior to release.
+The source workstation filed the corresponding supplement as Figure S1. The repository uses Figure S4, following the final manuscript. The archived source filenames within the original plotting scripts remain unchanged.

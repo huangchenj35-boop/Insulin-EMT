@@ -116,39 +116,39 @@
     "historical_weng_path": "V3_重组_20261023/audit/plotted_values.csv"
   },
   {
-    "repository_path": "Figure_S1/Panel_A/data/paired_statistics.csv",
+    "repository_path": "Figure_S4/Panel_A/data/paired_statistics.csv",
     "historical_weng_path": "S1A_HCC配对热图_FigureYa311_20261010/inputs/paired_statistics.csv"
   },
   {
-    "repository_path": "Figure_S1/Panel_A/data/patient_percentages.csv",
+    "repository_path": "Figure_S4/Panel_A/data/patient_percentages.csv",
     "historical_weng_path": "S1A_HCC配对热图_FigureYa311_20261010/inputs/patient_percentages.csv"
   },
   {
-    "repository_path": "Figure_S1/assembly/build_final_figures.py",
+    "repository_path": "Figure_S4/assembly/build_final_figures.py",
     "historical_weng_path": "V14_最终图与回复_20261026/code/build_final_figures.py"
   },
   {
-    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_6.pdf",
+    "repository_path": "Figure_S4/assembly/assets/precompact_Figure_6.pdf",
     "historical_weng_path": "JBC_singlecell_20261024_final/Figure_6.pdf"
   },
   {
-    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_6.png",
+    "repository_path": "Figure_S4/assembly/assets/precompact_Figure_6.png",
     "historical_weng_path": "JBC_singlecell_20261024_final/Figure_6.png"
   },
   {
-    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_7.pdf",
+    "repository_path": "Figure_S4/assembly/assets/precompact_Figure_7.pdf",
     "historical_weng_path": "JBC_singlecell_20261024_final/Figure_7.pdf"
   },
   {
-    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_7.png",
+    "repository_path": "Figure_S4/assembly/assets/precompact_Figure_7.png",
     "historical_weng_path": "JBC_singlecell_20261024_final/Figure_7.png"
   },
   {
-    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_S1.pdf",
+    "repository_path": "Figure_S4/assembly/assets/precompact_Figure_S1.pdf",
     "historical_weng_path": "JBC_singlecell_20261024_final/Figure_S1.pdf"
   },
   {
-    "repository_path": "Figure_S1/assembly/assets/precompact_Figure_S1.png",
+    "repository_path": "Figure_S4/assembly/assets/precompact_Figure_S1.png",
     "historical_weng_path": "JBC_singlecell_20261024_final/Figure_S1.png"
   },
   {

@@ -29,11 +29,11 @@ TASKS = {
         "reference": "Figure_7/final/Figure_7.pdf",
         "filename": "Figure_7.pdf"
     },
-    "Figure_S1": {
+    "Figure_S4": {
         "entry": "V14_最终图与回复_20261026/code/build_final_figures.py",
         "result": "V14_最终图与回复_20261026/figures/Figure_S1.pdf",
-        "reference": "Figure_S1/final/Figure_S1.pdf",
-        "filename": "Figure_S1.pdf"
+        "reference": "Figure_S4/final/Figure_S4.pdf",
+        "filename": "Figure_S4.pdf"
     }
 }
 
