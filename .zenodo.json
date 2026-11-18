@@ -3,8 +3,77 @@
   "description": "Analysis code and derived figure-level data for Figure 6, Figure 7 and Figure S4 of the accompanying manuscript. The release preserves historical analysis scripts, frozen numerical inputs, final multi-panel assembly code and approved figures. It supports reconstruction of the final figure compositions from the supplied derived inputs; it is not a complete raw-count-to-figure reproduction package.",
   "creators": [
     {
+      "name": "Liu, Rui",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany; Department of Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, China; General Surgery Department, The Affiliated Hospital of Xuzhou Medical University, Xuzhou, Jiangsu, China"
+    },
+    {
+      "name": "Feng, Rilu",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany; Department of Endocrinology and Metabolism, Renji Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"
+    },
+    {
+      "name": "Lin, Tao",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany"
+    },
+    {
+      "name": "Tong, Chenhao",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany; Hepatopancreatobiliary Surgery Department, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China; Liver Disease Research Laboratory, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China"
+    },
+    {
       "name": "Huang, Chenjun",
-      "orcid": "0000-0003-3836-6262"
+      "orcid": "0000-0003-3836-6262",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany; Department of Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Liu, Pei",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany"
+    },
+    {
+      "name": "Zhou, Minghan",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany"
+    },
+    {
+      "name": "Jiang, Luyao",
+      "affiliation": "Liver Disease Research Laboratory, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China"
+    },
+    {
+      "name": "Munker, Stefan",
+      "affiliation": "Pharmaceutical Biology, Department of Pharmacy, Center for Drug Research, Ludwig-Maximilians-University Munich, Munich, Germany"
+    },
+    {
+      "name": "Niess, Hanno",
+      "affiliation": "Department of General, Visceral, and Transplant Surgery, Ludwig-Maximilians-University Munich, Munich, Germany; Biobank of the Department of General, Visceral and Transplant Surgery, Ludwig-Maximilians-University, Munich, Germany"
+    },
+    {
+      "name": "Liebe, Roman",
+      "affiliation": "Department of Gastroenterology, Hepatology and Transplant Medicine, Medical Faculty, University of Duisburg-Essen, Essen, Germany"
+    },
+    {
+      "name": "Zhu, Jiyun",
+      "affiliation": "Hepatopancreatobiliary Surgery Department, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China"
+    },
+    {
+      "name": "Zheng, Siming",
+      "affiliation": "Hepatopancreatobiliary Surgery Department, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China"
+    },
+    {
+      "name": "Ebert, Matthias P",
+      "affiliation": "Department of Medicine II, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany; Molecular Medicine Partnership Unit, European Molecular Biology Laboratory, Heidelberg, Germany; DKFZ-Hector Cancer Institute at the University Medical Center, Mannheim, Germany"
+    },
+    {
+      "name": "Gao, Chunfang",
+      "affiliation": "Department of Clinical Laboratory Medicine Center, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Dooley, Steven",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany; Liver Disease Research Laboratory, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China"
+    },
+    {
+      "name": "Wang, Hua",
+      "affiliation": "Department of Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, China"
+    },
+    {
+      "name": "Weng, Hong-Lei",
+      "affiliation": "Department of Medicine II, Section Molecular Hepatology, University Medical Center Mannheim, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany"
     }
   ],
   "version": "1.0.0",
